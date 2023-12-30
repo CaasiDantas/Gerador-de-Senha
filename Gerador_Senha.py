@@ -14,7 +14,7 @@ while True:
     #O _ para indicar que a variável não será usada no loop 
     senha = ''.join(choice(caracteres) for _ in range(tamanho_senha))
 
-    print("Senha gerada:", senha)
+    print("Senha gerada: {senha}")
 
     print()
 
